@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rendang">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+    <ImageView
+        android:layout_width="346dp"
+        android:layout_height="187dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/rendang"
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="1/ 2 ekor ayam ( dipotong kecil )\n1 biji kelapa ( blender dgn 2 1/2 cawan air & ambil santannya)\n5 helai daun limau purut ( carik-carikkan )\n2 paket kecil kerisik\n2 helai daun kunyit ( hiris )\n1 keping asam keping\n1 1/2 sdb gula pasir\n1/ 2 sdb garam\n1 sdt perasa
+\n1 1/2 senduk minyak masak"
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Method"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Panaskan minyak\nTumis bahan kisar.\nMasukkan asam keping ,gula dan tumis hingga betulbetul naik minyak.\nMasukkan kerisik, daun limau purut dan santan.\nTunggu sehingga santan mendidih dan mula kering (sentiasa kacau jangan sampai pecah santan)..\nMasukkan ayam dan  letak garam dan perasa..\nTunggu sehingga ayam empuk..
+\nTabur daun kunyit
+\nApabila kuah dah pekat…sesuaikan rasa..
+\nTutup api dan sedia utk dihidang"android:textColor="@color/black" />
+
+    <androidx.core.widget.NestedScrollView android:layout_height="wrap_content">
+</LinearLayout>

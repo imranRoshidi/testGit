@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BeLanGa</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="method">Method</string>
+    <string name="dalgonamethod">Combine the first three ingredients in a bowl and stir (with a whisk or hand mixer) until it turns from a dark brown concoction to a beige coloured thick, foamy mixture. Finish by scooping the mixture on to the top of the milk.</string>
+    <string name="caramelmethod">Melt the sugar with half of the water on low heat until it dissolves and turns into honey color before adding the remaining water. Do not stir the sugar mixture when it is melting. Pour the caramel in a cup and tilt it to coat the entire base of the cup.Boil the milk with sugar and set it aside. In a separate bowl, beat the eggs and pour in the hot milk SLOWLY while whisking it to incorporate. Pour the custard onto the top of the caramel.Wrap the cup with aluminum foil and steam it for 10 mins. Once it is cooked and set, run a knife around the rim of the cup and invert onto a dessert plat</string>
+    <string name="murtabakmethod">Cook the noodles until soft and drain the water.In a bowl, add in the eggs, a little bit of noodle seasoning, chopped onion, red chilli and set aside. Then, add the noodle into the egg mixture and mix well. Divide the mixture into two portions. Add a little cooking oil into a frying pan. Coat and heat the entire pan with oil. Then, pour a portion of the noodle mixture into the pan and fry until both sides are cooked and slightly brown. Serve immediately.</string>
+    <string name="biscuitmethod">Mix everything (except honey) with your hands to create a breadcrumbs mixture (don’t overmix the ingredients, you will need to keep some texture.). Shape the mixture into dough balls and place them on a baking tray lined with parchment paper. Bake the biscuits at 180°C for 15 minutes. Brush honey on the top of the biscuits and it is ready to be served.</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".masakmerah">
+
+    <ImageView
+        android:layout_width="346dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/masakmerah" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="1/2 ekor ayam\n
+sedikit garam kunyit\n\n
+Bahan kisar:\n
+4-5 biji cili kering\n
+1 cm halia\n
+2 ulas bawang putih\n
+1 labu bawang besar\n
+1 biji tomato-potong dadu\n
+1/2 cawan sos tomato\n"
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/method"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="15dp"
+        android:text="Bersih ayam. Potong kecil-kecil dan gaul dengan garam kunyit. Goreng sehingga 2/3 masak\n
+Tumis bahan kisar kecuali sos tomato dan tomato sehingga naik bau. Kemudian barulah dimasukkan sos dan buah tomato. Tumis sehingga naik minyak.\n
+Masukkan ayam. Biar kuah jadi pekat. Sekali sekala hendaklah digaul balikkan.\n
+Bila kuah dah pekat bolehlah masuk bahan-bahan hias. Biar 1-2 minit. Kemudian padamkan api.\n"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</LinearLayout>

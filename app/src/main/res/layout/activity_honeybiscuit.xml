@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".honeybiscuit">
+
+    <ImageView
+        android:layout_width="346dp"
+        android:layout_height="212dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/honeybiscuit"
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="\nRecipe for 8 biscuits\n\n
+2.5 cup of plain flour (320g)\n
+4 tps baking powder\n
+2 tbps sugar (more or less based on your own preference)\n
+115g cold butter\n
+Honey\n
+140ml fresh milk\n
+2 tbps vinegar\n"
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/method"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/biscuitmethod"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</LinearLayout>
