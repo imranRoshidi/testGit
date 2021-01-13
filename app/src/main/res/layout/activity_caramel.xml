@@ -13,7 +13,7 @@
         android:layout_height="171dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/caramelcustard"
+        android:src="@drawable/caramelcustard"/>
 
     <TextView
         android:layout_marginStart="10dp"
@@ -28,15 +28,8 @@
         android:layout_marginStart="10dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:text="Caramel\n
-60g water\n
-30g sugar\n\n
-Custard\n
-30g sugar\n
-200ml milk\n
-2 eggs\n
-"
+        android:textSize="17sp"
+        android:text="@string/caramelingredient"/>
     <TextView
         android:layout_marginStart="10dp"
         android:layout_width="wrap_content"
@@ -54,6 +47,6 @@ Custard\n
         android:layout_marginStart="10dp"
         android:text="@string/caramelmethod"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="17sp" />
 
 </LinearLayout>

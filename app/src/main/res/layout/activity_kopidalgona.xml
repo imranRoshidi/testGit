@@ -13,7 +13,7 @@
         android:layout_height="212dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/dalgona"
+        android:src="@drawable/dalgona"/>
 
     <TextView
         android:layout_marginStart="10dp"
@@ -28,11 +28,9 @@
         android:layout_marginStart="10dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:text="\nRecipe for 1 cup\n\n 2 tsp coffee powder (not 3-in-1)\n
-2 tsp sugar\n
-2 tsp hot water\n
-Milk and Ice in a tall glass\n"
+        android:textSize="17sp"
+        android:text="Recipe for 1 cup...2 tsp coffee powder (not 3-in-1)...2 tsp sugar...2 tsp hot water...Milk and Ice in a tall glass\n"
+    />
     <TextView
         android:layout_marginStart="10dp"
         android:layout_width="wrap_content"
@@ -45,11 +43,11 @@ Milk and Ice in a tall glass\n"
         />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="384dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/dalgonamethod"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="17sp" />
 
 </LinearLayout>
