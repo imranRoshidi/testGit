@@ -1,135 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".chicken">
 
 
     <ImageView
         android:id="@+id/berempah"
+        android:layout_width="162dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="10dp"
-        android:layout_width="211dp"
-        android:layout_height="115dp"
-        android:src="@drawable/berempah" />
+        android:src="@drawable/paprik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_berempah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/berempah"
         android:layout_gravity="center_horizontal"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="12dp"
-        android:text="ayam_berempah" />
+        android:backgroundTint="#FF9800"
+        android:text="Ayam Paprik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/berempah" />
 
     <ImageView
         android:id="@+id/kicap"
-        android:layout_width="169dp"
-        android:layout_height="115dp"
-        android:layout_alignLeft="@id/berempah"
-        android:layout_alignEnd="@id/berempah"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
         android:layout_gravity="right"
-        android:layout_marginLeft="227dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="-175dp"
-        android:src="@drawable/ayamkicap" />
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/ayamkicap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_kicap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/kicap"
         android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="235dp"
-        android:layout_marginTop="9dp"
-        android:text="Ayam Kicap" />
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#FF9800"
+        android:text="Ayam Kicap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kicap" />
 
     <ImageView
         android:id="@+id/rendang"
-        android:layout_width="180dp"
-        android:layout_height="103dp"
-        android:layout_below="@id/btn_berempah"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="18dp"
-        android:src="@drawable/rendang" />
+        android:layout_width="150dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/rendang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_berempah" />
+
     <Button
         android:id="@+id/btn_rendang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rendang"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="9dp"
-        android:text="Rendang Ayam" />
+        android:text="Rendang Ayam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rendang" />
 
     <ImageView
-        android:layout_below="@id/btn_kicap"
         android:id="@+id/kunyit"
-        android:layout_width="169dp"
-        android:layout_height="115dp"
-        android:layout_alignLeft="@id/berempah"
-        android:layout_alignEnd="@id/berempah"
+        android:layout_width="133dp"
+        android:layout_height="100dp"
         android:layout_gravity="right"
-        android:layout_marginLeft="227dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="-175dp"
-        android:src="@drawable/kunyit" />
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/kunyit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kicap"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_kunyit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/kunyit"
         android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="235dp"
-        android:layout_marginTop="9dp"
-        android:text="Ayam Kunyit" />
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:text="Ayam Kunyit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kunyit" />
 
     <ImageView
         android:id="@+id/ladahitam"
-        android:layout_width="180dp"
-        android:layout_height="103dp"
-        android:layout_below="@id/btn_kicap"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="192dp"
-        android:src="@drawable/ladahitam" />
+        android:layout_width="153dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ladahitam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rendang" />
 
     <Button
         android:id="@+id/btn_ladahitam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ladahitam"
         android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="4dp"
-        android:text="Ayam Lada Hitam" />
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:text="Ayam Lada Hitam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ladahitam" />
 
     <ImageView
         android:id="@+id/masakmerah"
-        android:layout_width="176dp"
-        android:layout_height="100dp"
-        android:layout_below="@id/btn_kunyit"
-        android:layout_alignLeft="@id/berempah"
-        android:layout_alignEnd="@id/berempah"
+        android:layout_width="139dp"
+        android:layout_height="82dp"
         android:layout_gravity="right"
-        android:layout_marginLeft="227dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="-181dp"
-        android:src="@drawable/masakmerah" />
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/masakmerah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kunyit"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_masakmerah"
-        android:layout_width="168dp"
-        android:layout_height="69dp"
-        android:layout_below="@id/masakmerah"
+        android:layout_width="142dp"
+        android:layout_height="56dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="220dp"
-        android:layout_marginTop="5dp"
-        android:text="Ayam Masak Merah" />
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:text="Ayam Masak Merah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/masakmerah" />
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

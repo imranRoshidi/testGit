@@ -14,7 +14,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="211dp"
         android:layout_height="115dp"
-        android:src="@drawable/dalgona" />
+        android:src="@drawable/dalgona2" />
 
     <Button
         android:id="@+id/btn_dalgona"

@@ -13,7 +13,7 @@
         android:layout_height="212dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/dalgona"/>
+        android:src="@drawable/dalgona2"/>
 
     <TextView
         android:layout_marginStart="10dp"

@@ -14,7 +14,7 @@
         android:layout_height="101dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/ladahitam"
+        android:src="@drawable/ladahitam"/>
 
     <TextView
         android:layout_marginStart="10dp"
@@ -29,17 +29,8 @@
         android:layout_marginStart="10dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
-        android:text=" Ayam\n
-2 biji bawang putih – dihiris\n
-2 biji bawang besar(merah) – dihiris\n
-2 inci halia – dihiris panjang\n
-2 tangkai lada kering\n
-2 sudu lada hitam – ditumbuk agak kasar.\n
-2 sudu sos lada hitam\n
-2 sudu sos tiram\n
-Kiub perasa ayam (suku kiub)\n
-Garam secukup rasa (hujung sudu)\n"
+        android:textSize="16sp"
+        android:text="@string/pepperingredient"/>
     <TextView
         android:layout_marginStart="10dp"
         android:layout_width="wrap_content"
@@ -51,15 +42,11 @@ Garam secukup rasa (hujung sudu)\n"
         />
 
     <TextView
-        android:layout_width="359dp"
+        android:layout_width="383dp"
         android:layout_height="196dp"
         android:layout_marginStart="15dp"
-        android:text=" Potong ayam ikut suka, kalau saya sederhana. Goreng dan asingkan.\n
-Panaskan minyak, tumis bawang putih, bawang besar, halia, lada kering dan lada hitam hingga kecoklatan dan naik bau.\n
-Tuang sedikit air, masukkan sos lada hitam, sos tiram dan garam secukup rasa. Kacau sebati hingga agak likat.\n
-Masukkan ayam yang telah digoreng dan gaulkan sehingga sebati.
-Sedia untuk di hidang!"
+        android:text="@string/methodblackpepper"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="16sp" />
 
 </LinearLayout>

@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BeLanGa">
-        <activity android:name=".honeybiscuit"></activity>
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".testMain"/>
+        <activity android:name=".honeybiscuit" />
         <activity android:name=".murtabak" />
         <activity android:name=".caramel" />
         <activity android:name=".kopidalgona" />
@@ -21,13 +29,17 @@
         <activity android:name=".ayamkicap" />
         <activity android:name=".ayamkunyit" />
         <activity android:name=".chicken" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".seafood" />
+        <activity android:name=".salmongrill" />
+        <activity android:name=".ketamsumbatbakar" />
+        <activity android:name=".western" />
+        <activity android:name=".ayamstewtomatosayuran" />
+        <activity android:name=".ayampanggangketuhar" />
+        <activity android:name=".sheperdpiedaging" />
+        <activity android:name=".lasagna" />
+        <activity android:name=".chickenrouladecreamy" />
+        <activity android:name=".spaghettiaglioolio" />
+        <activity android:name=".about" />
     </application>
 
 </manifest>

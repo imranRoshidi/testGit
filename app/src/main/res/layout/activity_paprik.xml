@@ -13,7 +13,7 @@
         android:layout_height="101dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
-        android:src="@drawable/paprik"
+        android:src="@drawable/paprik"/>
 
     <TextView
         android:layout_marginStart="10dp"
@@ -28,23 +28,8 @@
         android:layout_marginStart="10dp"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
-        android:text="300 g isi ayam (Dipotong kecil)\n
-1 labu bawang besar (Dibelah 6)\n
-3 ulas bawang putih (Diketuk)\n
-5 biji cili api (Diketuk)\n
-1 batang serai (Diketuk)\n
-½ batang lobak merah  (Dipotong kecil)\n
-2 sudu makan kicap pekat\n
-5 sudu makan sos tomato\n
-5 sudu makan sos cili\n
-½ cawan air\n
-3 sudu makan sos tiram\n
-1 biji capsicum hijau\n
-100 g kubis bunga\n
-5 helai daun limau purut\n
-3 biji limau kesturi  (Diambil jusnya)\n
-2 sudu makan minyak masak\n"
+        android:textSize="15sp"
+        android:text="@string/paprikingredient"/>
     <TextView
         android:layout_marginStart="10dp"
         android:layout_width="wrap_content"
@@ -55,17 +40,11 @@
         android:textColor="@color/black"
         />
     <TextView
-        android:textSize="12sp"
+        android:textSize="15sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:text=" Panaskan minyak dan tumiskan bawang besar dan bahan yang diketuk sehingga wangi.\n
-Masukkan isi ayam dan kacau rata.\n
-Masukkan lobak merah, kicap pekat, sos tomato, sos cili, air, dan sos tiram. Biarkan mendidih.\n
-Masukkan capsicum dan kubis bunga kemudian kacau rata.\n
-Apabila mendidih, masukkan daun limau purut dan kacau.\n
-Masukkan jus limau dan tutup api.\n
-Hidangkan bersama nasi putih, mi, ataupun bihun yang sudah dicelur\n"
+        android:layout_marginStart="14dp"
+        android:text="@string/paprikmethod"
         android:textColor="@color/black" />
 
 </LinearLayout>
